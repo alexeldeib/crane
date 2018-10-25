@@ -1,0 +1,1 @@
+$env:AZURE_AUTH_LOCATION="client_credentials.json"

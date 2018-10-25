@@ -1,0 +1,19 @@
+resources:
+- type: azure.virtualmachine
+  name: control
+  args: 
+    name: testname
+    location: westus2
+    virtualNetworkPropertiesFormat:
+      addressSpace: 
+        addressPrefixes: ['10.0.0.0/8']
+- type: azure.virtualmachine
+  name: control
+  args: 
+    name: testname
+    location: westus2
+    virtualNetworkPropertiesFormat:
+      addressSpace: 
+        addressPrefixes: ['10.0.0.0/8']
+
+  
